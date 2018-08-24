@@ -1,0 +1,21 @@
+{
+  "name": "crop-extension-api",
+  "version": "1.0.0",
+  "description": "A browser extension",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Christian Schmid",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "encrypt-password": "^1.0.1",
+    "express": "^4.16.3",
+    "loopback-component-explorer": "^6.2.0",
+    "mongodb": "^3.1.3",
+    "nodemon": "^1.18.3"
+  }
+}
